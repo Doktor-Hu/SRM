@@ -41,7 +41,7 @@ More details can be found in Preprocessing_RACMO2.py
 
 More details can be found in train.py
 
-[3] Applying super resolution models
+[3] Applying Super Resolution Models using application_main.py
 
-[4] Visual Evaluation
+[4] Visual Evaluation using application_main.py
 
