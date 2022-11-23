@@ -8,10 +8,11 @@ RACMO2 27 km and 5.5 km simulations are freely available from (https://www.proje
 
 ## Framework
 
-[1] Preprocessing RACMO2 27 km and 5.5 km Simulations
+[1] Preprocessing RACMO2 27 km and 5.5 km Simulations using Preprocessing_main.py
 
-    -> NetCDF to Geo Tiff
-    -> AOI partitioning
+    -> 1. Cropping and coregistrating RACMO2 27 and 5.5 km resolution (including data NetCDF to Geo Tiff and AOI partitioning)
+    -> 2. Generating Training, development, testing data sets
+
     
 [2] Training super resolution models
 
