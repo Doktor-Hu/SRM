@@ -13,28 +13,33 @@ RACMO2 27 km and 5.5 km simulations are freely available from (https://www.proje
     -> 1. Cropping and coregistrating RACMO2 27 and 5.5 km resolution (including data NetCDF to Geo Tiff and AOI partitioning)
     -> 2. Generating Training, development, testing data sets
 
-    
+More details can be found in Preprocessing_RACMO2.py
+
 [2] Training Super Resolution Models using train_main.py
 
-    python 
+    e.g., python train.py SRResNet ALL_MASE ALL 3 T T 16 2 F T 1e-5 0
     
-Training a super resolution model
+    usage: train.py [-h] SR_Model LOSS_Mode AOIs Numver_of_Input_Variables Write_NPY Plot_NPY Batch_Size Training_Padding Standization Save_Format MD Embedding_Dim model_version
 
-positional arguments:
-  SR_Model              SRResNet, HAN, Swin
-  LOSS_Mode             lOSS mode: MSE, VGG, LR, ALL
-  AOIs                  Area of Intersts
-  Numver_of_Input_Variables
+    Training a super resolution model
+
+    positional arguments:
+      SR_Model              SRResNet, HAN, Swin
+      LOSS_Mode             lOSS mode: MSE, VGG, LR, ALL
+      AOIs                  Area of Intersts
+      Numver_of_Input_Variables
                         Input Variables
-  Write_NPY             Write Numpy Array [Y/N]
-  Plot_NPY              Plot the Written Numpy Array [Y/N]
-  Batch_Size            Batch Size
-  Training_Padding      Training Padding
-  Standization          Standization [Y/N]
-  Save_Format           Save mMdel as TF [Y/N]
-  MD                    Early Stopping Minimal Delta
-  Embedding_Dim         Embedding Dimension for Swin
-  model_version         Model Version
+      Write_NPY             Write Numpy Array [Y/N]
+      Plot_NPY              Plot the Written Numpy Array [Y/N]
+      Batch_Size            Batch Size
+      Training_Padding      Training Padding
+      Standization          Standization [Y/N]
+      Save_Format           Save mMdel as TF [Y/N]
+      MD                    Early Stopping Minimal Delta
+      Embedding_Dim         Embedding Dimension for Swin
+      model_version         Model Version
+
+More details can be found in train.py
 
 [3] Applying super resolution models
 
