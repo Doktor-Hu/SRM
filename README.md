@@ -1,1 +1,1 @@
-# Geophysical downscaling is more than photo-realistic single image super resolution 
+# Transferability of single-image super resolution to geophysical downscaling
