@@ -43,5 +43,17 @@ More details can be found in train.py
 
 [3] Applying Super Resolution Models using application_main.py
 
+    model_name = 'US_Results_Final_HAN_Vanille_LossALL_MAE_Smlt3_Emb0_Bn16_NoStand_Oct-June_Padded2_aoiALL.tf'
+    model_in = 'solo' 
+    ARSM.Apply_NPY(model_name, model_in, s_var, stand=False, CSO=None,topo=4)
+    
+More details can be found in ARSM.py
+
 [4] Visual Evaluation using application_main.py
 
+    model_name = 'US_Results_Final_HAN_Vanille_LossALL_MAE_Smlt3_Emb0_Bn16_NoStand_Oct-June_Padded2_aoiALL' #no .tf
+    ARSM.plot_month(model_name)
+    ARSM.plot_year(model_name) 
+
+
+More details can be found in ARSM.py
