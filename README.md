@@ -59,5 +59,6 @@ More details can be found in ARSM.py
 More details can be found in ARSM.py
 
 
-## Examples
+## Example of A Random Fast Visual Check
 
+![Yearly result in the year 2006](/Example/5.png)
