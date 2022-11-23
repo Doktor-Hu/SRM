@@ -14,7 +14,27 @@ RACMO2 27 km and 5.5 km simulations are freely available from (https://www.proje
     -> 2. Generating Training, development, testing data sets
 
     
-[2] Training super resolution models
+[2] Training Super Resolution Models using train_main.py
+
+    python 
+    
+Training a super resolution model
+
+positional arguments:
+  SR_Model              SRResNet, HAN, Swin
+  LOSS_Mode             lOSS mode: MSE, VGG, LR, ALL
+  AOIs                  Area of Intersts
+  Numver_of_Input_Variables
+                        Input Variables
+  Write_NPY             Write Numpy Array [Y/N]
+  Plot_NPY              Plot the Written Numpy Array [Y/N]
+  Batch_Size            Batch Size
+  Training_Padding      Training Padding
+  Standization          Standization [Y/N]
+  Save_Format           Save mMdel as TF [Y/N]
+  MD                    Early Stopping Minimal Delta
+  Embedding_Dim         Embedding Dimension for Swin
+  model_version         Model Version
 
 [3] Applying super resolution models
 
