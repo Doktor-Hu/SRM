@@ -61,4 +61,4 @@ More details can be found in ARSM.py
 
 ## Example of A Random Fast Visual Check
 
-![Yearly result in the year 2006](/Example/5.png)
+![Yearly result in the year 2006](Examples/5.png)
