@@ -11,3 +11,11 @@ RACMO2 27 km and 5.5 km simulations are freely available from (https://www.proje
 [1] Preprocessing RACMO2 27 km and 5.5 km Simulations
 
     -> NetCDF to Geo Tiff
+    -> AOI partitioning
+    
+[2] Training super resolution models
+
+[3] Applying super resolution models
+
+[4] Visual Evaluation
+
