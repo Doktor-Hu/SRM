@@ -235,7 +235,7 @@ def HAN(input_layer):
 
     RG_n_res = RG_l_out
     
-    IRCAB_l_ = RCAB(RG_l_out)
+    IRCAB_l = RCAB(RG_l_out)
     IRCAB_i = RCAB(IRCAB_l)
     IRCAB_m = RCAB(IRCAB_i)
 
